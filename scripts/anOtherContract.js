@@ -5,8 +5,8 @@ async function main() {
     "anotherContract"
   );
   const TEST = await anotherContract.deploy(
-    "0x11A020474E2877d57bCf03eFe40BC12D8beAd7b6",
-    "0xc07B47B2c7D05C2bE259282579fA15AfB22329c7"
+    "0x5693722a9e3B2e4783E0Fe857508A99083d690b2",
+    "0x1534e9caB6B2D4D384453183Ea4d2e2fEAD205Fb"
   );
 
   await TEST.deployed();
@@ -20,4 +20,4 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-//0xdD788021250cBf21405054df68411E9473FC66d9
+//0x36D841cc29BD7F4fb54f8aF8e396b3dc813f0b78

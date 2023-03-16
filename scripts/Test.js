@@ -2,7 +2,7 @@ const hre = require("hardhat");
 
 async function main() {
   const test = await hre.ethers.getContractFactory("test");
-  const TEST = await test.deploy("0xc07B47B2c7D05C2bE259282579fA15AfB22329c7");
+  const TEST = await test.deploy("0x1534e9caB6B2D4D384453183Ea4d2e2fEAD205Fbs");
 
   await TEST.deployed();
 
@@ -15,4 +15,4 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-//0x11A020474E2877d57bCf03eFe40BC12D8beAd7b6
+//0x5693722a9e3B2e4783E0Fe857508A99083d690b2
